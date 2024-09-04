@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Verification</title>
+    <link rel="stylesheet" href="AgeStyles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img1.png" alt="Vienna Distribution" class="logo">
+        <h1 class="viena">VIENNA</h1>
+        <h3 class="distribution">DISTRIBUTION</h3>
+        <h1 class="welcome">Welcome! In order to continue your visit on Vienna distribution, you <br> must be of legal drinking age.</h1>
+        <h2 class="when">When were you born?</h2>
+        
+        <form id="age-verification-form">
+            <div class="date-inputs">
+                <input type="text" id="day" placeholder="DAY (DD)" maxlength="2">
+                <input type="text" id="month" placeholder="MONTH (MM)" maxlength="2">
+                <input type="text" id="year" placeholder="YEAR (YYYY)" maxlength="4">
+            </div>
+            <button type="button" onclick="verifyAge()">I AM OF LEGAL DRINKING AGE</button>
+        </form>
+        
+        <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+    </div>
+
+    <script src="AgeJs.js"></script>
+</body>
+</html>

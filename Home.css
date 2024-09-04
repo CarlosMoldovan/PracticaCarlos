@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("Group 10.png");
+    height: 1000px;
+    display: flex;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%);
+    z-index: 1;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.cltop{
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 0px;
+    margin-left: 30px;
+    height: 80px;
+    width: 100px;
+    z-index: 2;
+}
+
+
+.viena {
+    font-size: 34px;
+    letter-spacing: 4px;
+    font-weight: 510;
+    color: white;
+    margin: 0;
+    padding: 0;
+    z-index: 2; 
+}
+
+.distribution {
+    color: white;
+    margin-left: 8px;
+    margin-top: 0px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 310;
+    padding: 0;
+    z-index: 2; 
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top {
+    margin-left: 180px;
+    margin-top: 75px;
+}
+
+.top img{
+    width: 15px;
+    height: 15px;
+    margin-top: 0px;
+}
+
+.social {
+    margin-left: 30px;
+    margin-top: 75px;
+    display: flex;
+    align-items: top;
+}
+
+.div2{
+    height: 300px;
+    width: 200;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%);
+    z-index: 3;
+    margin-top: 130px;
+    margin-left: 270px;
+}
+
+.has{
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font: normal normal normal 80px/80px Futura PT;
+    margin-bottom: 0px;
+}
+
+.button2{
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 160px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+}
+
+.turk {
+    background-color: #54B3A1;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.has1 {
+    color:white;
+    font: normal normal 300 57px/64px Futura PT;
+    margin-top: 100px;
+    margin-left: 435px;
+}
+
+.social2{
+    margin-left: 900px;
+}
+
+.social2 img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.subsol{
+    display: flex;
+    flex-direction: column;
+    height: 3400px;
+    background-color: #0D0D0D;
+}
+
+.img2{
+    margin-left: 700px;
+    margin-top:100px;
+    height:400px;
+    width: 500px;
+}
+
+
+.imagebutton{
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    gap: 300px;
+    background-color: transparent   ;
+    justify-content: center;
+    overflow: auto;
+    row-gap: 40px;
+}
+.imgb {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.imgb img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.a {
+    position: absolute;
+    bottom: 5px; 
+    left: 25px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #000000;
+}
+
+.topfooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.c1{
+  margin-left: 170px;
+  margin-top: 40px;
+}
+
+.bottomf{
+    list-style-type: none;
+    color:white;
+}
+
+.bottomf li{
+    margin-bottom: 10px;
+}
+
+.c2{
+    margin-left: 170px;
+    margin-top: 40px; 
+}
+
+.bottomf2{
+    list-style-type: none;
+    color:white;
+    bottom: 40px;
+}
+
+.bottomf2 li{
+    margin-bottom: 10px;
+}
+
+.buttonb{
+    background-color: transparent;
+    border: none;
+}
+
+.buttonb a{
+    color:white;
+    font-size: 15px;
+}
+
+.social3{
+    margin-top:100px;
+    margin-left: 150px;
+}
+
+.social3 img{
+    width: 25px;
+    height: 25px;
+}
+
+.fein{
+    margin-left: 670px;
+    margin-top: 80px;
+}
+
+.fein a{
+    color: white;
+}
